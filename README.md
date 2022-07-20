@@ -114,8 +114,4 @@ high_level_df = pd.concat([orphans_prim, orphans_sec],
 high_level_df.fillna(0, inplace=True)
 print(datetime.now().strftime("%H:%M:%S"), "High Level table created")
 
-# Download file
-current_date = date.today()
-current_date = current_date.strftime("%d%m")
-high_level_df.to_csv((fr'{output_dir}Orphans_{current_date}.csv'))
-print(datetime.now().strftime("%H:%M:%S"), f"Education Orphans file saved to {output_dir}")
+
