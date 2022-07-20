@@ -1,5 +1,5 @@
 # Python-Script-for-LFD-testing
-# -*- coding: utf-8 -*-
+# 
 
 
 import pandas as pd
